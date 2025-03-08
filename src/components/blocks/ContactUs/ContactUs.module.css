@@ -1,0 +1,192 @@
+.contactUs {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    margin-bottom: 64px;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+        margin: 0;
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.inner {
+    background-color: $violet0;
+    border-radius: 16px;
+}
+
+.content {
+    padding: calc(var(--mantine-spacing-md) * 2);
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding: var(--mantine-spacing-xl);
+    }
+}
+
+.title {
+    margin: 0 0 var(--mantine-spacing-md);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: 24px;
+    }
+}
+
+.subTitle {
+    font-size: var(--mantine-font-size-md);
+    margin: 0 0 calc(var(--mantine-spacing-md) * 2);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        margin: 0 0 var(--mantine-spacing-md);
+    }
+}
+
+.description {
+    a {
+        color: $violet9;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    h6 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 8px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.form {
+    padding: calc(var(--mantine-spacing-md) * 2);
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding: var(--mantine-spacing-xl) var(--mantine-spacing-md);
+    }
+}
+
+.inputsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--mantine-spacing-md);
+
+    .medium {
+        width: calc(50% - calc(var(--mantine-spacing-md) / 2));
+
+        @media (max-width: $mantine-breakpoint-xs) {
+            width: 100%;
+        }
+    }
+
+    .large {
+        width: 100%;
+    }
+}
+
+.fieldInput {
+
+    label {
+        margin: 0 0 2px;
+        color: $black;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+
+        span {
+            color: $black;
+        }
+    }
+
+    input, textarea {
+        padding: 0 16px;
+        min-height: 40px;
+        border-radius: 8px;
+        background: $violet1;
+        border: 1px solid transparent;
+        font-size: var(--mantine-font-size-md);
+        line-height: 1.4;
+        color: $black;
+        outline: none;
+        appearance: none;
+        min-width: 100%;
+        order: 1;
+
+        &::placeholder {
+            font-size: var(--mantine-font-size-md);
+            line-height: 1.4;
+            color: $violet7;
+        }
+
+        &:active,
+        &:focus {
+            border: 1px solid $violet9;
+        }
+    }
+
+    textarea {
+        min-height: 66px;
+        padding: 8px 16px;
+    }
+}
+
+.buttonWrap {
+    button {
+        width: 100%;
+        margin: var(--mantine-spacing-xl) 0 0;
+    }
+}
+
+.checkbox {
+    input {
+        border-color: $violet9;
+    }
+}
+
+.checkboxWrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    cursor: pointer;
+    margin: calc(var(--mantine-spacing-md) * 2) 0 0;
+}
+
+.checkboxText {
+    color: $violet9;
+
+    a {
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+
+.confirmationMessage {
+    font-size: var(--mantine-font-size-lg);
+    font-weight: 700;
+    color: $violet9;
+    margin-top: calc(var(--mantine-spacing-md) * 2);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: var(--mantine-font-size-md);
+    }
+}

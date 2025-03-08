@@ -1,0 +1,55 @@
+.galleryBlock {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    margin-bottom: 64px;
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+        margin: 0;
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.col {
+    border-radius: 12px;
+}
+
+.inner {
+    img {
+        @media (min-width: 1024px) {
+            height: 100%;
+        }
+    }
+}
+
+.imageWrap {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.imageTextWrap {
+    background-color: $violet9;
+    padding: var(--mantine-spacing-md);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageText  {
+    color:$white;
+    font-size: var(--mantine-font-size-lg);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: var(--mantine-font-size-md);
+    }
+}

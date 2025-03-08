@@ -1,0 +1,104 @@
+.simpleFaqBlock {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+
+.title {
+    text-align: left;
+    margin: 0 0 var(--mantine-spacing-md);
+    font-size: 32px;
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: 24px;
+    }
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.item {
+    background: transparent;
+    border-radius: 16px;
+    margin: 0 !important;
+
+    &[data-active] {
+        background: transparent;
+        border-color: $violet9;
+
+        .control {
+            background: transparent;
+            padding-bottom: 0;
+        }
+
+        .chevron {
+            background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InBsdXMiPgo8cGF0aCBpZD0iVmVjdG9yIiBkPSJNMTYuOTQ5NyA3LjA1MTMxTDcuMDUwMjUgMTYuOTUwOE03LjA1MDI1IDcuMDUxMzFMMTYuOTQ5NyAxNi45NTA4IiBzdHJva2U9IiM2ODVCQzciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8L3N2Zz4K)
+            center center no-repeat;
+        }
+    }
+}
+
+.control {
+    border-radius: 16px;
+    padding: var(--mantine-spacing-md);
+    background: $violet0;
+}
+
+.chevron {
+    width: 24px;
+    height: 24px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InBsdXMiPgo8cGF0aCBpZD0iVmVjdG9yIiBkPSJNMTkgMTJMNSAxMk0xMiA1TDEyIDE5IiBzdHJva2U9IiM2ODVCQzciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8L3N2Zz4K)
+    center center no-repeat;
+
+    svg {
+        display: none !important;
+    }
+}
+
+.label {
+    padding: 0;
+    color: $black;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        font-size: var(--mantine-font-size-md);
+    }
+}
+
+.content {
+    padding: var(--mantine-spacing-md);
+    color: $black;
+    font-size: 18px;
+    line-height: 1.4;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        font-size: var(--mantine-font-size-md);
+    }
+
+    p {
+        margin: 0 0 var(--mantine-spacing-md);
+
+        &:last-of-type {
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.control {
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    height: 40px;
+
+    &.big {
+        padding: 16px 24px;
+        height: 57px;
+    }
+
+    &:disabled {
+        color: $black !important;
+        background: $gray !important;
+    }
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        width: 100%;
+    }
+
+    &.filled.violet {
+        background: $violet9;
+        color: $yellow9;
+
+        &:hover {
+            background: $violet1;
+            color:$violet9;
+
+            svg path {
+                fill:$violet9 !important;
+            }
+        }
+    }
+    &.onlyBorder.violet {
+        background: transparent;
+        border: 1px solid $violet9;
+        color: $violet9;
+
+        &:hover {
+            background: $violet1;
+            color:$violet9;
+
+            svg path {
+                fill:$violet9 !important;
+            }
+        }
+    }
+
+    &.filled.darkRed {
+        background: $redDark;
+        color: $yellow9;
+
+        &:hover {
+            background: $redDark1;
+            color:$yellow9;
+
+            svg path {
+                fill:$yellow9 !important;
+            }
+        }
+    }
+
+    &.filled.yellow {
+        background: $yellow9;
+        color: $violet9;
+
+        &:hover {
+            background: rgba(255, 235, 180, 0.20);
+            color:$yellow9;
+
+            svg path {
+                fill:$yellow9 !important;
+            }
+        }
+    }
+}
+
+.loading {
+    pointer-events: none;
+
+    span {
+        color:transparent;
+    }
+
+    svg path {
+        fill: transparent;
+        stroke: transparent;
+    }
+}
+
+
+.loadingIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

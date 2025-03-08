@@ -1,0 +1,60 @@
+.serviceCards {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.title {
+    margin: 0 0 var(--mantine-spacing-xl);
+}
+
+.cards {
+    gap: var(--mantine-spacing-xl);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        gap: calc(var(--mantine-spacing-md) * 2);
+    }
+}
+
+.card {
+    position: relative;
+    color:$black;
+    display: flex;
+    gap: 16px;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        flex-direction: column;
+    }
+}
+
+.cardImage {
+    border-radius: 8px;
+}
+
+.cardTitle {
+    margin: 0 0 calc(var(--mantine-spacing-md) / 2);
+    font-weight: 600;
+}
+
+.cardDescription {
+    color: $gray;
+    margin: 0 0 var(--mantine-spacing-md);
+}
+
+.cardPrice {
+    font-weight: 600;
+}

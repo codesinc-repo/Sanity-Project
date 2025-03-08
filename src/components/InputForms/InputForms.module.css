@@ -1,0 +1,141 @@
+.fieldInput {
+
+    label {
+        margin: 0 0 2px;
+        color: $gray6;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+
+        span {
+            color: $gray6;
+        }
+    }
+
+    input, textarea {
+        padding: 0 16px;
+        min-height: 50px;
+        border-radius: 8px;
+        font-size: 18px;
+        line-height: 1.4;
+        color: $black;
+        outline: none;
+        appearance: none;
+        min-width: 100%;
+        order: 1;
+        border: 1px solid $violet1;
+        background: $violet0;
+
+        @media (max-width: $mantine-breakpoint-md) {
+            font-size: 16px;
+        }
+
+        &::placeholder {
+            font-size: 18px;
+            line-height: 1.4;
+            color: $gray;
+
+            @media (max-width: $mantine-breakpoint-md) {
+                font-size: 16px;
+            }
+        }
+
+        &:hover {
+            border: 1px solid $violet9;
+        }
+
+        &:active,
+        &:focus {
+            border: 2px solid $violet9;
+        }
+    }
+
+    textarea {
+        min-height: 166px;
+        padding: 8px 16px;
+    }
+
+}
+
+.mantine-Input-section {
+    padding: 0 !important;
+}
+
+.multiCheckboxGroup {
+    margin-bottom: 5px;
+}
+
+.radioWrapperLabel {
+    margin: 0 0 2px;
+    color: $gray6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    span {
+        color: $gray6;
+    }
+}
+
+.radioGroup {
+    gap: 8px;
+}
+
+.radioRoot {
+    border-radius: 8px;
+    border: 1px solid $violet1;
+    background: $violet0;
+    padding: 0;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .radioInner {
+        display: none;
+    }
+}
+
+.radioRoot[data-checked] {
+    min-height: 32px;
+    padding: 0 16px;
+    background: $violet9;
+    border: 1px solid $violet9;
+    cursor: initial;
+
+    .radioLabel {
+        color:$white;
+        padding: 0;
+        cursor: initial;
+    }
+
+    .radioInner {
+        display: flex;
+    }
+}
+
+.radioLabel {
+  color: $black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 0 16px;
+  cursor: pointer;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        font-size: 16px;
+    }
+}
+
+.radioInput {
+    display: none;
+}
+
+.radioBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

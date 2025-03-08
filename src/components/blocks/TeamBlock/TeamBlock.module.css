@@ -1,0 +1,119 @@
+.teamBlock {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.titleWrap {
+    margin: 0 0 calc(var(--mantine-spacing-md) * 2);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        margin: 0 0 var(--mantine-spacing-md);
+    }
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.subTitle {
+    margin: var(--mantine-spacing-md) 0 0;
+    max-width: 640px;
+}
+
+.cards {
+    gap: 56px 24px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        gap: var(--mantine-spacing-md);
+    }
+}
+
+.cardImage {
+    border-radius: 16px;
+    object-fit: contain;
+    width: 170px;
+    height: 180px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        width: 140px;
+        height: auto;
+    }
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: calc(var(--mantine-spacing-md) / 2) 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    gap: 16px;
+}
+
+.cardTitle {
+    margin: 0 0 calc(var(--mantine-spacing-md) / 2);
+    font-size: var(--mantine-font-size-lg);
+    font-weight: 600;
+    line-height: 1.4;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: var(--mantine-font-size-md);
+    }
+}
+
+.cardDescription {
+    font-size: var(--mantine-font-size-lg);
+    color:$gray;
+    line-height: 1.4;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: var(--mantine-font-size-md);
+    }
+}
+
+.cardLink {
+    display: block;
+    color: $violet9;
+    text-decoration: none;
+    font-size: var(--mantine-font-size-lg);
+    line-height: 1.4;
+    word-break: break-word;
+
+    &:first-of-type {
+        margin: 0 0 calc(var(--mantine-spacing-md) / 2);
+    }
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: var(--mantine-font-size-md);
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

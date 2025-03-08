@@ -1,0 +1,167 @@
+.blogComponent {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    margin-bottom: 64px;
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+        margin: 0;
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.title {
+    margin: 0 0 var(--mantine-spacing-xl);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        margin: 0 0 var(--mantine-spacing-md);
+    }
+}
+
+.subTitle {
+    font-size: var(--mantine-font-size-lg);
+    max-width: 650px;
+    margin: 0 0 var(--mantine-spacing-xl);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: var(--mantine-font-size-md);
+        margin: 0 0 var(--mantine-spacing-md);
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    @media (min-width: $mantine-breakpoint-sm) {
+        gap: 24px;
+    }
+
+    @media (min-width: $mantine-breakpoint-md) {
+        flex-wrap: nowrap;
+    }
+}
+
+.blogCard {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+
+    &:hover {
+        .blogCardImage {
+            &:after {
+                background: rgba(115, 55, 235, 0.2);
+            }
+        }
+
+        .blogCardIcon {
+            background: $violet9;
+
+            svg path {
+                stroke: $white;
+            }
+        }
+    }
+
+    @media (min-width: $mantine-breakpoint-sm) {
+        width: calc(50% - 12px);
+    }
+
+    @media (min-width: $mantine-breakpoint-md) {
+        width: calc(100% / 3 - 12px);
+    }
+}
+
+.hovered {
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        width: calc(50% - 12px);
+    }
+
+    .blogCardTitle {
+        max-width: 100%;
+    }
+}
+
+.notHovered {
+    @media (min-width: $mantine-breakpoint-lg) {
+        width: calc(25% - 12px);
+    }
+}
+
+.blogCardDate {
+    font-size: var(--mantine-font-size-lg);
+    color: $gray5;
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: var(--mantine-font-size-md);
+    }
+}
+
+.blogCardTitleWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.blogCardTitle {
+    max-width: 250px;
+}
+
+.blogCardIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.blogCardImage {
+    position: relative;
+    width: 100%;
+    height: 253px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: calc(var(--mantine-spacing-md) / 2);
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &:after {
+        position: absolute;
+        user-focus: none;
+        user-select: none;
+        pointer-events: none;
+        content: '';
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}
+
+.blogCardLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+

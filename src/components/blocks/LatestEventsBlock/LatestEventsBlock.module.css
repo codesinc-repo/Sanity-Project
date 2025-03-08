@@ -1,0 +1,226 @@
+.latestEventsBlock {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    margin-bottom: 64px;
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+        margin: 0;
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title {
+
+}
+
+.subTitle {
+    font-size: var(--mantine-font-size-lg);
+    max-width: 650px;
+    margin: var(--mantine-spacing-xl) 0 0 ;
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: var(--mantine-font-size-md);
+        margin: var(--mantine-spacing-md) 0 0 ;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+
+    @media (max-width: $mantine-breakpoint-lg) {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+}
+
+.card {
+    position: relative;
+    z-index: 2;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid $violet9;
+    display: flex;
+    align-items: flex-start;
+    width: calc(100% / 3 - 12px);
+    flex-direction: row;
+    gap: 16px;
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        &:hover {
+
+            .cardIcon {
+                background: $violet1;
+
+                svg path {
+                    stroke:$violet9 !important;
+                }
+            }
+        }
+    }
+
+    @media (max-width: $mantine-breakpoint-lg) {
+        flex-direction: column;
+        gap: 8px;
+        width: calc(50% - 12px);
+    }
+
+    @media (max-width: $mantine-breakpoint-md) {
+        width: 100%;
+    }
+}
+
+.imageWrap {
+
+    @media (max-width: $mantine-breakpoint-lg) {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+.cardImage {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        width: 170px;
+        height: 170px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.hovered {
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        width: calc(50% - 12px);
+    }
+
+    .blogCardTitle {
+        max-width: 100%;
+    }
+}
+
+.notHovered {
+    @media (min-width: $mantine-breakpoint-lg) {
+        width: calc(25% - 12px);
+    }
+}
+
+.cardInfoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.cardIcon {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    background: $violet9;
+
+    @media (max-width: $mantine-breakpoint-lg) {
+        background: $violet1;
+
+        svg path {
+            stroke:$violet9 !important;
+        }
+    }
+}
+
+.linkAbsolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.infoWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.infoTitle {
+    min-width: 95px;
+    font-size: 16px;
+    font-weight: 700;
+    color:$violet9;
+    line-height: 1.4;
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        font-size: 18px;
+    }
+}
+
+.infoChildWrap {
+    gap: 0;
+}
+
+.infoText {
+    font-size: 16px;
+    font-weight: 400;
+    color:$violet9;
+    line-height: 1.4;
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        font-size: 18px;
+    }
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color:$violet9;
+    line-height: 1.4;
+
+    @media (min-width: $mantine-breakpoint-lg) {
+        font-size: 20px;
+    }
+}
+
+.varyingTimes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid $violet9;
+}
+
+

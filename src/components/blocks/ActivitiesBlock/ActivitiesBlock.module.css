@@ -1,0 +1,94 @@
+.serviceCards {
+    padding-top: calc(var(--mantine-spacing-sm) * 4);
+    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: calc(var(--mantine-spacing-md) * 2);
+        padding-bottom: calc(var(--mantine-spacing-md) * 2);
+    }
+}
+
+.firstBlock {
+    padding-top: 200px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 160px;
+    }
+}
+
+.title {
+    margin: 0 0 calc(var(--mantine-spacing-md) * 2);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        margin: 0 0 var(--mantine-spacing-md);
+    }
+}
+
+.cards {
+    gap: var(--mantine-spacing-xl);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        gap: var(--mantine-spacing-md);
+    }
+}
+
+.card {
+    position: relative;
+    border: 1px solid $black;
+    color:$black;
+    gap: var(--mantine-spacing-md);
+    padding: var(--mantine-spacing-md);
+    border-radius: 16px;
+
+    &:hover {
+        border: 1px solid $violet9;
+
+        .cardTitle {
+            color:$violet9;
+        }
+
+        .iconWrap {
+            background: $violet9;
+
+            svg path {
+                stroke: $white;
+            }
+        }
+    }
+}
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: calc(var(--mantine-spacing-md) / 2);
+}
+
+.cardImage {
+    width: 300px;
+    height: 132px;
+    object-fit: contain;
+    margin: 0 auto var(--mantine-spacing-md);
+}
+
+.cardTitleWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    font-weight: 600;
+    font-size: var(--mantine-font-size-lg);
+}
+
+.cardLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,54 @@
+.preheaderBlock {
+    position: absolute;
+    top: 0;
+	width: 100%;
+	display: none;
+	z-index: 1000;
+    background: $red9;
+    padding: 12px 0;
+}
+
+.active {
+	display: block;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.inner {
+    position: relative;
+}
+
+.content {
+    font-size: var(--mantine-font-size-md);
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+	p {
+		margin: 0;
+	}
+
+	a {
+        color: $white;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+}
+
+.close {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: 16px;
+    height: 16px;
+    width: 16px;
+    display: block;
+    transform: translateY(-50%);
+}

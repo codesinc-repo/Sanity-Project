@@ -1,0 +1,32 @@
+module.exports = {
+	plugins: {
+		'postcss-preset-mantine': {},
+		'postcss-simple-vars': {
+			variables: {
+				'mantine-breakpoint-xs': '36em',
+				'mantine-breakpoint-sm': '48em',
+				'mantine-breakpoint-md': '62em',
+				'mantine-breakpoint-lg': '75em',
+				'mantine-breakpoint-xl': '88em',
+				white: '#FFFFFF',
+				black: '#000000',
+				violet9: '#685BC7',
+				violet7: '#AE8BF4',
+				violet1: '#E5DBFF',
+				violet0: '#F3F0FF',
+				yellow9: '#FFEBB4',
+				gray: '#868E96',
+				gray7: '#495057',
+				gray6: '#4F4444',
+				gray5: '#ADB5BD',
+				gray4: '#9A9594',
+				gray3: '#66605F',
+				red9: '#FF323C',
+				redDark: '#821955',
+				redDark1: '#5A153C',
+				redDark0: '#912364',
+				pink: '#EEE8EB',
+			},
+		},
+	},
+};
