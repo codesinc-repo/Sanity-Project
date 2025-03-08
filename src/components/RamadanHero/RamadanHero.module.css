@@ -1,0 +1,29 @@
+.heroSection {
+  background-color: #685BC7; 
+  color: #F5E8B6;           
+  padding: 120px 20px;
+  min-height: 600px;
+  display: flex;
+  align-items: center; 
+}
+
+.heroInner {
+  max-width: 1200px;
+  margin: 0 80px; 
+  text-align:start;
+}
+
+.heroTitle {
+  font-size: 68px;   
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #F5E8B6;
+}
+
+.heroSubtitle {
+  font-size: 20px;   
+  line-height: 1.5;
+  max-width: 900px;
+  margin-bottom: 0;
+  color: #F5E8B6;
+}

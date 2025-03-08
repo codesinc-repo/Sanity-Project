@@ -1,0 +1,161 @@
+.ramadanContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  /* ====== TABS ====== */
+  .tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tab {
+    background-color: #ffffff;
+    color: #685bc7;
+    border: 1px solid #685bc7;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .activeTab {
+    background-color: #685bc7;
+    color: #fff;
+  }
+  
+  .mainLayout {
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr; /* Adjust ratio for your design */
+    gap: 2rem;
+  }
+  
+  /* ====== BIG CARD (LEFT) ====== */
+  .bigCard {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .bigCardLabel {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #685bc7;
+    color: #fff;
+    font-size: 14px;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+  }
+  
+  .bigCardImageWrapper {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .bigCardImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .bigCardText {
+    padding: 0 0.5rem;
+  }
+  
+  .bigCardDate {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bigCardTitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .bigCardButton {
+    background-color: #685bc7;
+    color: #f5e8b6;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* ====== SMALL CARDS GRID (RIGHT) ====== */
+  .smallCardsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  /* We have 5 small cards => 2 columns => 
+     2 rows fully filled, last row with 1 card */
+  .smallCard {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .smallCardLabel {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #685bc7;
+    color: #fff;
+    font-size: 12px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+  }
+  
+  .smallCardImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .smallCardDate {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
+  
+  .smallCardTitle {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  /* ====== SHOW MORE BUTTON (PURPLE WITH ARROW) ====== */
+  .showMore {
+    margin-top: 2rem;
+    text-align: right; /* or center if your Figma shows it in the middle */
+  }
+  
+  .showMoreButton {
+    background-color: #685bc7;
+    color: #f5e8b6;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
