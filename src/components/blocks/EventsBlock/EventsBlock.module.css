@@ -1,231 +1,229 @@
 .eventsBlock {
-    padding-top: calc(var(--mantine-spacing-sm) * 4);
-    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
-    margin-bottom: 64px;
-    background-color: $white;
-    color: $black;
+	padding-top: calc(var(--mantine-spacing-sm) * 4);
+	padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+	margin-bottom: 64px;
+	background-color: $white;
+	color: $black;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: calc(var(--mantine-spacing-md) * 2);
-        padding-bottom: calc(var(--mantine-spacing-md) * 2);
-        margin: 0;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: calc(var(--mantine-spacing-md) * 2);
+		padding-bottom: calc(var(--mantine-spacing-md) * 2);
+		margin: 0;
+	}
 }
 
 .firstBlock {
-    padding-top: 200px;
+	padding-top: 200px;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: 160px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: 160px;
+	}
 }
 
-
 .titleWrap {
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 0 var(--mantine-spacing-xl);
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 0 var(--mantine-spacing-xl);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        margin: 0 0 var(--mantine-spacing-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		margin: 0 0 var(--mantine-spacing-md);
+	}
 }
 
 .openCalendarWrap {
-    border-radius: 8px;
-    display: flex;
-    height: 40px;
-    padding: 0 20px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid $violet9;
-    gap: 8px;
-    text-decoration: none;
+	border-radius: 8px;
+	display: flex;
+	height: 40px;
+	padding: 0 20px;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid $violet9;
+	gap: 8px;
+	text-decoration: none;
 
-    &:hover {
-        background: $violet0;
-    }
+	&:hover {
+		background: $violet0;
+	}
 }
 
 .openCalendar {
-    color: #685BC7;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-    text-decoration: none;
+	color: #685bc7;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
+	text-decoration: none;
 }
 
 .moreInfo {
-    color: #685BC7;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
+	color: #685bc7;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
 
-    &:hover {
-        text-decoration: none;
-    }
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .subTitle {
-    font-size: var(--mantine-font-size-lg);
-    max-width: 650px;
-    margin: 0 0 var(--mantine-spacing-xl);
+	font-size: var(--mantine-font-size-lg);
+	max-width: 650px;
+	margin: 0 0 var(--mantine-spacing-xl);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-        margin: 0 0 var(--mantine-spacing-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+		margin: 0 0 var(--mantine-spacing-md);
+	}
 }
 
 .cards {
-    gap: 24px;
+	gap: 24px;
 
-    @media (max-width: 1180px) {
-        gap: 16px;
-    }
+	@media (max-width: 1180px) {
+		gap: 16px;
+	}
 }
 
 .blogCard {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    border-radius: 8px;
-    border: 1px solid $violet9;
-    overflow: hidden;
-    padding: 16px;
-    cursor: pointer;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	border-radius: 8px;
+	border: 1px solid $violet9;
+	overflow: hidden;
+	padding: 16px;
+	cursor: pointer;
 
-    &:hover {
-        .cardBtn {
-            background: $violet1;
-            color:$violet9;
+	&:hover {
+		.cardBtn {
+			background: $violet1;
+			color: $violet9;
 
-            svg path {
-                fill:$violet9 !important;
-            }
-        }
-    }
+			svg path {
+				fill: $violet9 !important;
+			}
+		}
+	}
 }
 
 .linkAbsolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .imageWrap {
-    width: 100%;
-    height: 220px;
-    border-radius: 8px;
-    flex-shrink: 0;
-    overflow: hidden;
-    position: relative;
+	width: 100%;
+	height: 220px;
+	border-radius: 8px;
+	flex-shrink: 0;
+	overflow: hidden;
+	position: relative;
 }
 
 .blogCardImage {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .infoWrap {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
 
 .infoChildWrap {
-    gap:0;
+	gap: 0;
 }
 
 .infoTitle {
-    min-width: 95px;
-    font-size: 18px;
-    font-weight: 700;
-    color:$violet9;
-    line-height: 1.4;
+	min-width: 95px;
+	font-size: 18px;
+	font-weight: 700;
+	color: $violet9;
+	line-height: 1.4;
 }
 
 .infoText {
-    font-size: 18px;
-    font-weight: 400;
-    color:$violet9;
-    line-height: 1.4;
+	font-size: 18px;
+	font-weight: 400;
+	color: $violet9;
+	line-height: 1.4;
 }
 
 .blogCardTitle {
-    font-size: 20px;
-    font-weight: 600;
-    color:$violet9;
-    line-height: 1.4;
+	font-size: 20px;
+	font-weight: 600;
+	color: $violet9;
+	line-height: 1.4;
 }
 
 .categoriesWrap {
-    position: absolute;
-    top: 16px;
-    right: 16px;
+	position: absolute;
+	top: 16px;
+	right: 16px;
 }
 
 .linksWrap {
-    @media (max-width: $mantine-breakpoint-xs) {
-        display: none;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		display: none;
+	}
 }
 
 .cardBtn {
-    display: flex;
-    padding: 0 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4;
-    height: 50px;
-    margin: auto 0 0;
-    background: $violet9;
-    color: $yellow9;
-    text-decoration: none;
+	display: flex;
+	padding: 0 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.4;
+	height: 50px;
+	margin: auto 0 0;
+	background: $violet9;
+	color: $yellow9;
+	text-decoration: none;
 }
 
 .loadMore {
-    cursor:pointer;
-    color: $violet9;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.4;
-    margin: 24px 0 0;
+	cursor: pointer;
+	color: $violet9;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.4;
+	margin: 24px 0 0;
 }
 
 .blogCardCategory {
-    display: flex;
-    height: 24px;
-    padding: 4px 16px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    font-size: 16px;
-    background: $violet9;
-    color: $violet0;
+	display: flex;
+	height: 24px;
+	padding: 4px 16px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	font-size: 16px;
+	background: $violet9;
+	color: $violet0;
 }
 
-
 .varyingTimes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px 8px;
-    height: 25px;
-    border-radius: 4px;
-    border: 1px solid $violet9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 6px 8px;
+	height: 25px;
+	border-radius: 4px;
+	border: 1px solid $violet9;
 }
 
 .infoDate {
-    text-transform: lowercase;
+	text-transform: lowercase;
 }

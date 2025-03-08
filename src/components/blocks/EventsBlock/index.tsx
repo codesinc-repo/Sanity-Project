@@ -84,7 +84,10 @@ const EventsBlock: FC<IEventsBlockProps> = ({
 								<span className={classes.openCalendar}>{link.title}</span>
 							</Link>
 						)}
-						<Link href={`/${lang}/gottsundakalendern/information/`} className={classes.moreInfo}>
+						<Link
+							href={`/${lang}/gottsundakalendern/information/`}
+							className={classes.moreInfo}
+						>
 							{'Mer information'}
 						</Link>
 					</Group>

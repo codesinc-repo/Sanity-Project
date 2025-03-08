@@ -1,190 +1,190 @@
 .singleEvent {
-    padding-top: 200px;
-    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
-    color: $black;
+	padding-top: 200px;
+	padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+	color: $black;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: 130px;
-        padding-bottom: calc(var(--mantine-spacing-md) * 2);
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: 130px;
+		padding-bottom: calc(var(--mantine-spacing-md) * 2);
+	}
 }
 .image {
-    width: 100%;
-    max-height: 440px;
-    border-radius: 16px;
+	width: 100%;
+	max-height: 440px;
+	border-radius: 16px;
 }
 
 .link {
-    display: flex;
-    text-decoration: none;
-    outline: none;
-    appearance: none;
-    border: none;
-    padding: 0 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4;
-    height: 40px;
-    background: $violet9;
-    color: $yellow9;
-    cursor: pointer;
+	display: flex;
+	text-decoration: none;
+	outline: none;
+	appearance: none;
+	border: none;
+	padding: 0 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.4;
+	height: 40px;
+	background: $violet9;
+	color: $yellow9;
+	cursor: pointer;
 
-    &:hover {
-        background: $violet1;
-        color:$violet9;
+	&:hover {
+		background: $violet1;
+		color: $violet9;
 
-        svg path {
-            fill:$violet9 !important;
-        }
-    }
+		svg path {
+			fill: $violet9 !important;
+		}
+	}
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        width: 100%;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		width: 100%;
+	}
 }
 
 .textInfoWrap {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        gap: 16px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		gap: 16px;
+	}
 }
 
 .contentWrap {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 48px;
 }
 
 .content {
-    grid-template-columns: calc(40% - 12px) calc(60% - 12px);
-    gap: 24px;
-    width: 100%;
+	grid-template-columns: calc(40% - 12px) calc(60% - 12px);
+	gap: 24px;
+	width: 100%;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        grid-template-columns: 1fr;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		grid-template-columns: 1fr;
+	}
 }
 
 .boxDateWrap {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
 }
 
 .boxDate {
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+	width: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
 }
 
 .labelBig {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.4;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.4;
 }
 
 .category {
-    display: flex;
-    padding: 4px 16px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.4;
-    color: $white;
-    background: $violet9;
+	display: flex;
+	padding: 4px 16px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	font-size: 18px;
+	line-height: 1.4;
+	color: $white;
+	background: $violet9;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .categoryWrap {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
 }
 
 .dataWrap {
-    gap: 24px;
+	gap: 24px;
 }
 
 .dateText {
-    color:  $violet9;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.14;
+	color: $violet9;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.14;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .infoWrapTitle {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.4;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
 }
 
 .infoWrap {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-    padding: 24px;
-    border-radius: 16px;
-    background: $violet0;
-    height: max-content;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 24px;
+	padding: 24px;
+	border-radius: 16px;
+	background: $violet0;
+	height: max-content;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-       gap: 16px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		gap: 16px;
+	}
 }
 
 .title {
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: 24px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: 24px;
+	}
 }
 
 .excerpt {
-    font-size: var(--mantine-font-size-lg);
-    max-width: 876px;
+	font-size: var(--mantine-font-size-lg);
+	max-width: 876px;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .label {
-    color: $violet9;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.14;
+	color: $violet9;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.14;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .socialWrap {
-    @media (max-width: $mantine-breakpoint-xs) {
-        width: 100%;
-      flex-direction: column;
-      gap: 8px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		width: 100%;
+		flex-direction: column;
+		gap: 8px;
+	}
 }

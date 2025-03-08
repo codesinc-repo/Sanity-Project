@@ -1,96 +1,96 @@
 .faq {
-    padding-top: calc(var(--mantine-spacing-sm) * 4);
-    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
-    background-color: $white;
-    color: $black;
+	padding-top: calc(var(--mantine-spacing-sm) * 4);
+	padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+	background-color: $white;
+	color: $black;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: calc(var(--mantine-spacing-md) * 2);
-        padding-bottom: calc(var(--mantine-spacing-md) * 2);
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: calc(var(--mantine-spacing-md) * 2);
+		padding-bottom: calc(var(--mantine-spacing-md) * 2);
+	}
 }
 
 .firstBlock {
-    padding-top: 200px;
+	padding-top: 200px;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: 160px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: 160px;
+	}
 }
 
 .title {
-    margin: 0 0 50px;
+	margin: 0 0 50px;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        font-size: 32px;
-        margin: 0 0 24px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		font-size: 32px;
+		margin: 0 0 24px;
+	}
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        order: 2;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		order: 2;
+	}
 }
 
 .accordion {
-    display: flex;
-    width: 100%;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    border-radius: 8px;
-    background: $violet0;
-    color:$violet9;
+	display: flex;
+	width: 100%;
+	padding: 16px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	border-radius: 8px;
+	background: $violet0;
+	color: $violet9;
 
-    &:first-of-type {
-        background: $violet1;
-    }
+	&:first-of-type {
+		background: $violet1;
+	}
 }
 
 .activeAccordion {
-    background: $violet9;
-    color:$white;
+	background: $violet9;
+	color: $white;
 
-    svg path {
-        stroke: $white;
-    }
+	svg path {
+		stroke: $white;
+	}
 }
 
 .item {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .itemTimeWrap {
-    display: flex;
-    align-items: center;
-    gap: 2px;
+	display: flex;
+	align-items: center;
+	gap: 2px;
 }
 
 .itemInfoWrap {
-    display: flex;
-    align-items: center;
-    gap: 50px;
+	display: flex;
+	align-items: center;
+	gap: 50px;
 }
 
 .itemText {
-    line-height: 1.40;
+	line-height: 1.4;
 }
 
 .image {
-    border-radius: 8px;
-    height: 100%;
+	border-radius: 8px;
+	height: 100%;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        order: 1;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		order: 1;
+	}
 }

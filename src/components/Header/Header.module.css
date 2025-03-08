@@ -1,228 +1,224 @@
 .header {
-    position: fixed;
-    width: 100%;
-    z-index: 299;
-    top: 34px;
+	position: fixed;
+	width: 100%;
+	z-index: 299;
+	top: 34px;
 
-    @media (max-width: 1024px) {
-        top: 0;
-    }
+	@media (max-width: 1024px) {
+		top: 0;
+	}
 }
 
 .container {
-    @media (max-width: 1024px) {
-        padding: 0;
-    }
+	@media (max-width: 1024px) {
+		padding: 0;
+	}
 }
 
 .buttonWrap {
-    width: auto !important;
+	width: auto !important;
 }
 
 .headerMobile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0;
+	width: 100%;
 }
 
 .headerMobileLogoWrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .inner {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--mantine-spacing-md);
-    border-radius: 48px;
-    background: $violet0;
-    backdrop-filter: blur(5px);
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: var(--mantine-spacing-md);
+	border-radius: 48px;
+	background: $violet0;
+	backdrop-filter: blur(5px);
 
-    @media (max-width: 1024px) {
-        border-radius: 0 0 12px 12px;
-        padding: 32px var(--mantine-spacing-md) 16px;
-    }
+	@media (max-width: 1024px) {
+		border-radius: 0 0 12px 12px;
+		padding: 32px var(--mantine-spacing-md) 16px;
+	}
 }
 
-
-
 .links {
-    gap: 16px;
-    padding-right: 185px;
+	gap: 16px;
+	padding-right: 185px;
 
-    @media (max-width: 1024px) {
-        display: none;
-    }
+	@media (max-width: 1024px) {
+		display: none;
+	}
 }
 
 .burger {
-    cursor: pointer;
-    display: inline-flex;
-    padding: 8px 16px;
-    justify-content: flex-end;
-    align-items: center;
-    align-self: stretch;
-    border-radius: 24px;
-    background: $violet9;
-    color: $yellow9;
-    font-size: var(--mantine-font-size-lg);
-    font-weight: 600;
+	cursor: pointer;
+	display: inline-flex;
+	padding: 8px 16px;
+	justify-content: flex-end;
+	align-items: center;
+	align-self: stretch;
+	border-radius: 24px;
+	background: $violet9;
+	color: $yellow9;
+	font-size: var(--mantine-font-size-lg);
+	font-weight: 600;
 
-    @media (min-width: 1025px) {
-        display: none;
-    }
+	@media (min-width: 1025px) {
+		display: none;
+	}
 }
 
 .burgerOpen {
-    position: absolute;
-    top: 60px;
-    right: 16px;
+	position: absolute;
+	top: 60px;
+	right: 16px;
 }
 
 .child .link {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .link {
-    display: block;
-    line-height: 1.5;
-    border-radius: 8px;
-    text-decoration: none;
-    color: $violet9;
-    font-size: 20px;
+	display: block;
+	line-height: 1.5;
+	border-radius: 8px;
+	text-decoration: none;
+	color: $violet9;
+	font-size: 20px;
 
-    @media (min-width: 1025px) {
-        color: $violet9;
-        font-size: var(--mantine-font-size-md);
-        padding: 8px;
+	@media (min-width: 1025px) {
+		color: $violet9;
+		font-size: var(--mantine-font-size-md);
+		padding: 8px;
 
-        &:hover {
-            background: $violet1;
-            border-radius: 8px;
+		&:hover {
+			background: $violet1;
+			border-radius: 8px;
 
-            .svg path {
-                stroke: $violet1;
-            }
-        }
-    }
+			.svg path {
+				stroke: $violet1;
+			}
+		}
+	}
 }
 
 .childLinkWrap {
-    padding: 0;
+	padding: 0;
 
-    &:hover {
-        background-color: transparent !important;
-    }
+	&:hover {
+		background-color: transparent !important;
+	}
 }
 
 .childLink {
-    display: block;
-    line-height: 1.5;
-    border-radius: 8px;
-    text-decoration: none;
-    color: $violet9;
-    padding: 8px;
-    font-size: 20px;
+	display: block;
+	line-height: 1.5;
+	border-radius: 8px;
+	text-decoration: none;
+	color: $violet9;
+	padding: 8px;
+	font-size: 20px;
 
-    @media (min-width: 1025px) {
-        font-size: var(--mantine-font-size-md);
+	@media (min-width: 1025px) {
+		font-size: var(--mantine-font-size-md);
 
-        &:hover {
-            background: $violet1;
-            border-radius: 8px;
+		&:hover {
+			background: $violet1;
+			border-radius: 8px;
 
-            .svg path {
-                stroke: $violet1;
-            }
-        }
-    }
+			.svg path {
+				stroke: $violet1;
+			}
+		}
+	}
 }
 
 .dropdown {
-    display: flex;
-    width: 200px !important;
-    padding: 8px;
-    position: fixed;
-    top: 116px !important;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-    border: none;
-    border-radius: 16px;
-    background: $violet0;
+	display: flex;
+	width: 200px !important;
+	padding: 8px;
+	position: fixed;
+	top: 116px !important;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	border: none;
+	border-radius: 16px;
+	background: $violet0;
 }
 
 .childLink {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .linkLabel {
-    margin-right: 5px;
-    font-size: 20px;
+	margin-right: 5px;
+	font-size: 20px;
 
-    @media (min-width: 1025px) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (min-width: 1025px) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .logo {
-    object-fit: contain !important;
-    width: 175px;
-    height: 43px;
-
+	object-fit: contain !important;
+	width: 175px;
+	height: 43px;
 }
 
-
 .mobileLinks {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    gap: 8px;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: all 0.25s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	gap: 8px;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.25s ease-in-out;
 }
 
 .menuContainerOpen {
-    height: 100vh;
-    margin-top: 48px;
-    overflow-y: scroll;
+	height: 100vh;
+	margin-top: 48px;
+	overflow-y: scroll;
 }
 
 .mobileLinkChild {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .mobileLinksChild {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    padding-left: var(--mantine-spacing-md);
-    margin: 0 0 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	padding-left: var(--mantine-spacing-md);
+	margin: 0 0 4px;
 }
 
 .itemWithChild {
-    width: 100%;
+	width: 100%;
 }
 
 .itemWithChildWrap {
-    position: relative;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    padding: 8px 16px;
-    border-radius: 8px;
+	position: relative;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 100%;
+	padding: 8px 16px;
+	border-radius: 8px;
 }
 
 .open {
-    transform: rotate(-180deg);
+	transform: rotate(-180deg);
 }

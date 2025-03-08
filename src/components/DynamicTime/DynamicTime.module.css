@@ -1,15 +1,15 @@
 .openingHoursContent {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .boxText {
-    font-size: var(--mantine-font-size-lg);
-    line-height: 1.40;
+	font-size: var(--mantine-font-size-lg);
+	line-height: 1.4;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+	}
 }

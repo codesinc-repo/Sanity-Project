@@ -1,132 +1,132 @@
 .ramadanBanner {
-    position: relative;
-    padding-top: 156px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 900px;
+	position: relative;
+	padding-top: 156px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 900px;
 
-    @media screen and (max-width: 1440px) {
-        height: 850px;
-    }
+	@media screen and (max-width: 1440px) {
+		height: 850px;
+	}
 
-    @media screen and (max-width: 992px) {
-        height: auto;
-    }
+	@media screen and (max-width: 992px) {
+		height: auto;
+	}
 
-    @media screen and (max-width: 768px) {
-        background-image: none !important;
-    }
+	@media screen and (max-width: 768px) {
+		background-image: none !important;
+	}
 }
 
 .mobileImage {
-    position: absolute;
-    top: -130px;
-    left: 25px;
-    display: none;
+	position: absolute;
+	top: -130px;
+	left: 25px;
+	display: none;
 
-    @media screen and (max-width: 768px) {
-        display: block;
-    }
+	@media screen and (max-width: 768px) {
+		display: block;
+	}
 }
 
 .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 875px;
-    margin: 0 auto;
-    gap: 24px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 875px;
+	margin: 0 auto;
+	gap: 24px;
 
-    @media screen and (max-width: 1440px) {
-        max-width: 700px;
-    }
+	@media screen and (max-width: 1440px) {
+		max-width: 700px;
+	}
 }
 
 .counter {
-    width: 184px;
-    height: 184px;
-    border-radius: 50%;
-    background-color: #fff;
-    margin-bottom: 32px;
-    padding: 7px;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY4IiBoZWlnaHQ9IjE2OCIgdmlld0JveD0iMCAwIDE2OCAxNjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iODQiIGN5PSI4NCIgcj0iODEiIHN0cm9rZT0iIzc2NjlENSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMiAxMCIvPjwvc3ZnPg==);
-    background-repeat: no-repeat;
-    background-position: center center;
+	width: 184px;
+	height: 184px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-bottom: 32px;
+	padding: 7px;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY4IiBoZWlnaHQ9IjE2OCIgdmlld0JveD0iMCAwIDE2OCAxNjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iODQiIGN5PSI4NCIgcj0iODEiIHN0cm9rZT0iIzc2NjlENSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMiAxMCIvPjwvc3ZnPg==);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .counterWrapper {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 4px;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 4px;
 }
 
 .counterVal {
-    color: #685BC7;
-    text-align: center;
-    font-family: Archivo, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.11;
-    text-transform: uppercase;
+	color: #685bc7;
+	text-align: center;
+	font-family: Archivo, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.11;
+	text-transform: uppercase;
 }
 
 .counterLabel {
-    color: #685BC7;
-    text-align: center;
-    font-family: Archivo, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.40;
+	color: #685bc7;
+	text-align: center;
+	font-family: Archivo, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.4;
 }
 
 .title {
-    text-align: center;
-    font-family: var(--font-monument);
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.2;
+	text-align: center;
+	font-family: var(--font-monument);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.2;
 
-    @media screen and (max-width: 768px) {
-        font-size: 32px;
-    }
+	@media screen and (max-width: 768px) {
+		font-size: 32px;
+	}
 }
 
 .subTitle {
-    text-align: center;
-    font-family: Archivo, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.40;
+	text-align: center;
+	font-family: Archivo, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.4;
 }
 
 .logoWrap {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
 
-    @media (max-width: $mantine-breakpoint-md) {
-        margin-top: 50px;
-        position: static;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		margin-top: 50px;
+		position: static;
+	}
 }
 
 .afterBanner {
-    padding: 0;
+	padding: 0;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding: 24px 20px 24px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding: 24px 20px 24px;
+	}
 }

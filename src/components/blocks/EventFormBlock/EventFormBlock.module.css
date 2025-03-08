@@ -1,551 +1,547 @@
 .eventFormBlock {
-    padding-top: calc(var(--mantine-spacing-sm) * 4);
-    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
-    margin-bottom: 64px;
-    background-color: $white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	padding-top: calc(var(--mantine-spacing-sm) * 4);
+	padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+	margin-bottom: 64px;
+	background-color: $white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: calc(var(--mantine-spacing-md) * 2);
-        padding-bottom: calc(var(--mantine-spacing-md) * 2);
-        margin: 0;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: calc(var(--mantine-spacing-md) * 2);
+		padding-bottom: calc(var(--mantine-spacing-md) * 2);
+		margin: 0;
+	}
 }
 
 .firstBlock {
-    padding-top: 200px;
+	padding-top: 200px;
 
-
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: 160px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: 160px;
+	}
 }
 
 .content {
-    max-width: 671px;
-    width: 100%;
-    margin: 0 auto;
+	max-width: 671px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 16px;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 16px;
 }
 
 .subTitle {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 24px;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 24px;
 
-    a {
-        color: $violet9;
-        text-decoration: none;
-        
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+	a {
+		color: $violet9;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 .accordionWrap {
-    display: flex;
-    flex-direction: column;
-    gap:10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .accordionChildWrap {
-    display: flex;
-    flex-direction: column;
-    gap:16px;
-    margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-top: 16px;
 }
 
 .accordionItem {
-    border-radius: 8px;
-    border: 1px solid $gray;
-    background: transparent;
-    overflow: hidden;
+	border-radius: 8px;
+	border: 1px solid $gray;
+	background: transparent;
+	overflow: hidden;
 }
 
 .accordionChildItem {
-    border-radius: 8px;
-    border: 1px solid $violet9;
-    background: transparent;
-    overflow: hidden;
+	border-radius: 8px;
+	border: 1px solid $violet9;
+	background: transparent;
+	overflow: hidden;
 }
 
 .infoWrap {
-    margin-top: 16px;
-    border-radius: 8px;
-    border: 1px solid $violet9;
-    background: transparent;
-    overflow: hidden;
-    padding: 16px;
-    color: $gray6;
+	margin-top: 16px;
+	border-radius: 8px;
+	border: 1px solid $violet9;
+	background: transparent;
+	overflow: hidden;
+	padding: 16px;
+	color: $gray6;
 }
 
 .listLabel {
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
 }
 
 .info {
-    margin: 0 0 16px;
-    padding: 0 0 0 24px;
+	margin: 0 0 16px;
+	padding: 0 0 0 24px;
 }
 
 .infoList {
-    display: flex;
-    gap: 4px;
-    align-items: flex-start;
+	display: flex;
+	gap: 4px;
+	align-items: flex-start;
 }
 
 .imagePreview {
-    position: relative;
+	position: relative;
 }
 
 .deleteBtn {
-    cursor: pointer;
-    position: absolute;
-    top: -10px;
-    right: -10px;
+	cursor: pointer;
+	position: absolute;
+	top: -10px;
+	right: -10px;
 }
 
 .accordionLabel {
-    color: $black;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-    padding: 0;
+	color: $black;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
+	padding: 0;
 }
 
 .accordionChevron {
-    width: 24px;
-    height: 24px;
+	width: 24px;
+	height: 24px;
 
-    svg {
-        width: 24px!important;
-        height: 24px!important;
-    }
+	svg {
+		width: 24px !important;
+		height: 24px !important;
+	}
 }
 
 .accordionPanel {
-    padding:  0 24px 24px 24px;
+	padding: 0 24px 24px 24px;
 }
 
 .accordionControl {
-    padding: 24px;
+	padding: 24px;
 }
 
 .accordionContent {
-    padding: 0;
+	padding: 0;
 }
 
 .imageWrap {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
 
 .imageLabel {
-    color: $gray6;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.14;
+	color: $gray6;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.14;
 }
 
 .imageDescription {
-    color: $gray;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.14;
+	color: $gray;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.14;
 }
 
 .imageBtn {
-    background: $violet9;
-    color: $yellow9;
-    padding: 0 20px;
-    height: 50px;
-    font-size: 16px;
-    border-radius: 8px;
+	background: $violet9;
+	color: $yellow9;
+	padding: 0 20px;
+	height: 50px;
+	font-size: 16px;
+	border-radius: 8px;
 
-    &:hover {
-        background: $violet1;
-        color:$violet9;
+	&:hover {
+		background: $violet1;
+		color: $violet9;
 
-        svg path {
-            fill:$violet9 !important;
-        }
-    }
+		svg path {
+			fill: $violet9 !important;
+		}
+	}
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        height: 40px;
-        font-size: 14px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		height: 40px;
+		font-size: 14px;
+	}
 }
 
 .imageBtnWrap {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
 }
 
 .buttonWrap {
-    justify-content: flex-end;
-    margin: 24px 0 0;
+	justify-content: flex-end;
+	margin: 24px 0 0;
 }
 
 .cancelBtn {
-    background: transparent;
-    border: 1px solid $gray7;
-    color: $gray7;
-    height: 50px;
-    font-size: 16px;
-    border-radius: 8px;
+	background: transparent;
+	border: 1px solid $gray7;
+	color: $gray7;
+	height: 50px;
+	font-size: 16px;
+	border-radius: 8px;
 
-    &:hover {
-        background: $violet0;
-        color: $gray7;
+	&:hover {
+		background: $violet0;
+		color: $gray7;
 
-        svg path {
-            fill:$violet0 !important;
-        }
-    }
+		svg path {
+			fill: $violet0 !important;
+		}
+	}
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        height: 40px;
-        font-size: 14px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		height: 40px;
+		font-size: 14px;
+	}
 }
 
 .nextBtn {
-    background: $violet9;
-    color: $white;
-    height: 50px;
-    font-size: 16px;
-    border-radius: 8px;
+	background: $violet9;
+	color: $white;
+	height: 50px;
+	font-size: 16px;
+	border-radius: 8px;
 
-    &:hover {
-        background: $violet1;
-        color: $violet9;
+	&:hover {
+		background: $violet1;
+		color: $violet9;
 
-        svg path {
-            fill: $violet9 !important;
-        }
-    }
+		svg path {
+			fill: $violet9 !important;
+		}
+	}
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        height: 40px;
-        font-size: 14px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		height: 40px;
+		font-size: 14px;
+	}
 }
 
 .calendar {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: calc(50% - 4px);
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: calc(50% - 4px);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        width: 100%;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		width: 100%;
+	}
 }
 
 .calendarGroupLevel {
-    justify-content: center;
+	justify-content: center;
 }
 
 .calendarLabel {
-    color: $gray6;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.14;
+	color: $gray6;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.14;
 
-    span {
-        font-weight: 700;
-    }
+	span {
+		font-weight: 700;
+	}
 }
 
 .switchLabel {
-    color: #101113;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.14;
-    max-width: 243px;
+	color: #101113;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.14;
+	max-width: 243px;
 }
 
 .switchWrap {
-    gap: 12px;
+	gap: 12px;
 }
 
 .timeWrap {
-    overflow-y: scroll;
-    padding-right: 10px;
-    max-height: 284px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+	overflow-y: scroll;
+	padding-right: 10px;
+	max-height: 284px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
 
 .disabled {
-    pointer-events: none;
-    display: none;
+	pointer-events: none;
+	display: none;
 }
 
 .timeInputWrap {
-    flex-direction: column;
-    align-items: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .inputTimeWrap {
-    width: 112px;
+	width: 112px;
 }
 
 .dateInput {
-    padding: 0 16px;
-    min-height: 50px;
-    border-radius: 8px;
-    font-size: 18px;
-    line-height: 1.4;
-    color: $black;
-    outline: none;
-    appearance: none;
-    min-width: 100%;
-    order: 1;
-    border: 1px solid $violet1;
-    background: $violet0;
+	padding: 0 16px;
+	min-height: 50px;
+	border-radius: 8px;
+	font-size: 18px;
+	line-height: 1.4;
+	color: $black;
+	outline: none;
+	appearance: none;
+	min-width: 100%;
+	order: 1;
+	border: 1px solid $violet1;
+	background: $violet0;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        font-size: 16px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		font-size: 16px;
+	}
 
-    &::placeholder {
-        font-size: 18px;
-        line-height: 1.4;
-        color: $gray;
+	&::placeholder {
+		font-size: 18px;
+		line-height: 1.4;
+		color: $gray;
 
-        @media (max-width: $mantine-breakpoint-md) {
-            font-size: 16px;
-        }
-    }
+		@media (max-width: $mantine-breakpoint-md) {
+			font-size: 16px;
+		}
+	}
 
-    &:hover {
-        border: 1px solid $violet9;
-    }
+	&:hover {
+		border: 1px solid $violet9;
+	}
 
-    &:active,
-    &:focus {
-        border: 2px solid $violet9;
-    }
+	&:active,
+	&:focus {
+		border: 2px solid $violet9;
+	}
 }
 
 .dateInputLabel {
-    margin: 0 0 2px;
+	margin: 0 0 2px;
 }
 
 .dateInputWrap {
-    width: calc(50% - 4px);
+	width: calc(50% - 4px);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        width: 100%;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		width: 100%;
+	}
 }
 
 .hide {
-    display: none;
+	display: none;
 }
 
 .inputTime {
-    min-height: 50px;
-    border-radius: 8px;
-    font-size: 20px;
-    line-height: 1.4;
-    color: $black;
-    outline: none;
-    border: 1px solid $violet1;
-    background: $violet0;
+	min-height: 50px;
+	border-radius: 8px;
+	font-size: 20px;
+	line-height: 1.4;
+	color: $black;
+	outline: none;
+	border: 1px solid $violet1;
+	background: $violet0;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        font-size: 18px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		font-size: 18px;
+	}
 
-    &::placeholder {
-        font-size: 18px;
-        line-height: 1.4;
-        color: $gray;
+	&::placeholder {
+		font-size: 18px;
+		line-height: 1.4;
+		color: $gray;
 
-        @media (max-width: $mantine-breakpoint-md) {
-            font-size: 16px;
-        }
-    }
+		@media (max-width: $mantine-breakpoint-md) {
+			font-size: 16px;
+		}
+	}
 
-    &:hover {
-        border: 1px solid $violet9;
-    }
+	&:hover {
+		border: 1px solid $violet9;
+	}
 
-    &:active,
-    &:focus {
-        border: 2px solid $violet9;
-    }
+	&:active,
+	&:focus {
+		border: 2px solid $violet9;
+	}
 }
 
 .timeDate {
-    color: #25262B;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
+	color: #25262b;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
 }
 
 .calendarWrap {
-    padding: 16px;
-    border-radius: 8px;
-    border: 1px solid $violet9;
-    width: 100%;
+	padding: 16px;
+	border-radius: 8px;
+	border: 1px solid $violet9;
+	width: 100%;
 }
 
 .calendarHeaderControlIcon {
-    width: 24px !important;
-    height: 24px !important;
+	width: 24px !important;
+	height: 24px !important;
 }
 
 .calendarBox {
-    align-items: flex-start;
-    gap: 8px;
-    width: 100%;
+	align-items: flex-start;
+	gap: 8px;
+	width: 100%;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        flex-direction: column;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		flex-direction: column;
+	}
 }
 
 .calendarHeaderLevel {
-   font-size: 16px;
-    color: $black;
+	font-size: 16px;
+	color: $black;
 }
 
 .weekday {
-    color: $gray3;
-    padding: 2px 0;
+	color: $gray3;
+	padding: 2px 0;
 }
 
 .day {
-    font-size: 14px;
-    color: $black !important;
+	font-size: 14px;
+	color: $black !important;
 }
 
 .day:where([data-in-range]) {
-    background-color: #4574EC !important;
+	background-color: #4574ec !important;
 }
-
 
 .day:where([data-selected]) {
-    color: $white !important;
-    background-color: #19204D !important;
+	color: $white !important;
+	background-color: #19204d !important;
 }
 
-
 .form {
-    width: 100%;
+	width: 100%;
 }
 
 .calendarInputsWrap {
-    label {
-        color: #25262B;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 140%;
-    }
+	label {
+		color: #25262b;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 140%;
+	}
 }
 
 .inputsWrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
 
-    .medium {
-        width: calc(50% - 12px);
+	.medium {
+		width: calc(50% - 12px);
 
-        @media (max-width: $mantine-breakpoint-xs) {
-            width: 100%;
-        }
-    }
+		@media (max-width: $mantine-breakpoint-xs) {
+			width: 100%;
+		}
+	}
 
-    .large {
-        width: 100%;
-    }
+	.large {
+		width: 100%;
+	}
 
-    &.calendarInputsWrap {
-        gap: 8px;
+	&.calendarInputsWrap {
+		gap: 8px;
 
-        .medium {
-            width: calc(50% - 4px);
+		.medium {
+			width: calc(50% - 4px);
 
-            @media (max-width: $mantine-breakpoint-xs) {
-                width: 100%;
-            }
-        }
-    }
+			@media (max-width: $mantine-breakpoint-xs) {
+				width: 100%;
+			}
+		}
+	}
 }
 
 .confirmationMessage {
-    font-size: var(--mantine-font-size-lg);
-    font-weight: 700;
-    color: $violet9;
-    margin-top: calc(var(--mantine-spacing-md) * 2);
+	font-size: var(--mantine-font-size-lg);
+	font-weight: 700;
+	color: $violet9;
+	margin-top: calc(var(--mantine-spacing-md) * 2);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .errorMessage {
-    font-size: var(--mantine-font-size-lg);
-    font-weight: 700;
-    color: $red9;
-    margin-top: calc(var(--mantine-spacing-md) * 2);
+	font-size: var(--mantine-font-size-lg);
+	font-weight: 700;
+	color: $red9;
+	margin-top: calc(var(--mantine-spacing-md) * 2);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 .smallErrorMessage {
-    font-size: 14px;
-    font-weight: 700;
-    color: $red9;
-    margin-top: 8px;
-
+	font-size: 14px;
+	font-weight: 700;
+	color: $red9;
+	margin-top: 8px;
 }
 
 .loading {
-    pointer-events: none;
+	pointer-events: none;
 
-    span {
-        color:transparent;
-    }
+	span {
+		color: transparent;
+	}
 
-    svg path {
-        fill: transparent;
-        stroke: transparent;
-    }
+	svg path {
+		fill: transparent;
+		stroke: transparent;
+	}
 }
 
 .loadingIcon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }

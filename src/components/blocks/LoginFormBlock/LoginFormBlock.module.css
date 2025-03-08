@@ -1,196 +1,194 @@
 .loginFormBlock {
-    padding-top: calc(var(--mantine-spacing-sm) * 4);
-    padding-bottom: calc(var(--mantine-spacing-sm) * 4);
-    margin-bottom: 64px;
-    background-color: $white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	padding-top: calc(var(--mantine-spacing-sm) * 4);
+	padding-bottom: calc(var(--mantine-spacing-sm) * 4);
+	margin-bottom: 64px;
+	background-color: $white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: calc(var(--mantine-spacing-md) * 2);
-        padding-bottom: calc(var(--mantine-spacing-md) * 2);
-        margin: 0;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: calc(var(--mantine-spacing-md) * 2);
+		padding-bottom: calc(var(--mantine-spacing-md) * 2);
+		margin: 0;
+	}
 }
 
 .firstBlock {
-    padding-top: 200px;
+	padding-top: 200px;
 
-
-    @media (max-width: $mantine-breakpoint-md) {
-        padding-top: 160px;
-    }
+	@media (max-width: $mantine-breakpoint-md) {
+		padding-top: 160px;
+	}
 }
 
 .content {
-    max-width: 425px;
-    width: 100%;
-    margin: 0 auto;
+	max-width: 425px;
+	width: 100%;
+	margin: 0 auto;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-      max-width: 100%;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		max-width: 100%;
+	}
 }
 
 .imageMask {
-    width: 497px;
-    height: 370px;
-    margin: 0 auto 18px;
-    mask: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDY0MCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik03MCAyNDMuOTAyVjI1Ni4wOThDNzAgMzkwLjg1NCAxNzkuMTQ2IDUwMCAzMTMuOTAyIDUwMFYwQzE3OS4xNDYgMCA3MCAxMDkuMTQ2IDcwIDI0My45MDJaIiBmaWxsPSIjRkYzMjNDIi8+PHBhdGggZD0iTTU3MCA1MDBWMjU2LjA5OEgzMjYuMDk4QzMyNi4wOTggMzkwLjg1NCA0MzUuMjQ0IDUwMCA1NzAgNTAwWiIgZmlsbD0iI0ZGMzIzQyIvPjxwYXRoIGQ9Ik01NzAgMEgzMjYuMDk4VjI0My45MDJDNDYwLjg1NCAyNDMuOTAyIDU3MCAxMzQuNzU2IDU3MCAwWiIgZmlsbD0iI0ZGMzIzQyIvPjwvc3ZnPg==);
-    -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDY0MCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik03MCAyNDMuOTAyVjI1Ni4wOThDNzAgMzkwLjg1NCAxNzkuMTQ2IDUwMCAzMTMuOTAyIDUwMFYwQzE3OS4xNDYgMCA3MCAxMDkuMTQ2IDcwIDI0My45MDJaIiBmaWxsPSIjRkYzMjNDIi8+PHBhdGggZD0iTTU3MCA1MDBWMjU2LjA5OEgzMjYuMDk4QzMyNi4wOTggMzkwLjg1NCA0MzUuMjQ0IDUwMCA1NzAgNTAwWiIgZmlsbD0iI0ZGMzIzQyIvPjxwYXRoIGQ9Ik01NzAgMEgzMjYuMDk4VjI0My45MDJDNDYwLjg1NCAyNDMuOTAyIDU3MCAxMzQuNzU2IDU3MCAwWiIgZmlsbD0iI0ZGMzIzQyIvPjwvc3ZnPg==);
-    mask-repeat: no-repeat;
-    mask-size: contain;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position-x: center;
-    -webkit-mask-size: contain;
+	width: 497px;
+	height: 370px;
+	margin: 0 auto 18px;
+	mask: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDY0MCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik03MCAyNDMuOTAyVjI1Ni4wOThDNzAgMzkwLjg1NCAxNzkuMTQ2IDUwMCAzMTMuOTAyIDUwMFYwQzE3OS4xNDYgMCA3MCAxMDkuMTQ2IDcwIDI0My45MDJaIiBmaWxsPSIjRkYzMjNDIi8+PHBhdGggZD0iTTU3MCA1MDBWMjU2LjA5OEgzMjYuMDk4QzMyNi4wOTggMzkwLjg1NCA0MzUuMjQ0IDUwMCA1NzAgNTAwWiIgZmlsbD0iI0ZGMzIzQyIvPjxwYXRoIGQ9Ik01NzAgMEgzMjYuMDk4VjI0My45MDJDNDYwLjg1NCAyNDMuOTAyIDU3MCAxMzQuNzU2IDU3MCAwWiIgZmlsbD0iI0ZGMzIzQyIvPjwvc3ZnPg==);
+	-webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDY0MCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik03MCAyNDMuOTAyVjI1Ni4wOThDNzAgMzkwLjg1NCAxNzkuMTQ2IDUwMCAzMTMuOTAyIDUwMFYwQzE3OS4xNDYgMCA3MCAxMDkuMTQ2IDcwIDI0My45MDJaIiBmaWxsPSIjRkYzMjNDIi8+PHBhdGggZD0iTTU3MCA1MDBWMjU2LjA5OEgzMjYuMDk4QzMyNi4wOTggMzkwLjg1NCA0MzUuMjQ0IDUwMCA1NzAgNTAwWiIgZmlsbD0iI0ZGMzIzQyIvPjxwYXRoIGQ9Ik01NzAgMEgzMjYuMDk4VjI0My45MDJDNDYwLjg1NCAyNDMuOTAyIDU3MCAxMzQuNzU2IDU3MCAwWiIgZmlsbD0iI0ZGMzIzQyIvPjwvc3ZnPg==);
+	mask-repeat: no-repeat;
+	mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position-x: center;
+	-webkit-mask-size: contain;
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        width: 100%;
-        margin: 0 auto 16px;
-        height: 240px;
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		width: 100%;
+		margin: 0 auto 16px;
+		height: 240px;
+	}
 }
 
 .title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 16px;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 16px;
 }
 
 .subTitle {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 32px;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 32px;
 
-    a {
-        color: $violet9;
-        text-decoration: none;
-        
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+	a {
+		color: $violet9;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 .form {
-    width: 100%;
+	width: 100%;
 }
 
 .forgotPassword {
-    text-decoration: none;
-    display: flex;
-    color: $violet9;
-    margin-top: 4px;
+	text-decoration: none;
+	display: flex;
+	color: $violet9;
+	margin-top: 4px;
 }
 
 .inputsWrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--mantine-spacing-md);
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--mantine-spacing-md);
 
-    .medium {
-        width: calc(50% - calc(var(--mantine-spacing-md) / 2));
+	.medium {
+		width: calc(50% - calc(var(--mantine-spacing-md) / 2));
 
-        @media (max-width: $mantine-breakpoint-xs) {
-            width: 100%;
-        }
-    }
+		@media (max-width: $mantine-breakpoint-xs) {
+			width: 100%;
+		}
+	}
 
-    .large {
-        width: 100%;
-    }
+	.large {
+		width: 100%;
+	}
 }
 
 .fieldInput {
+	label {
+		margin: 0 0 2px;
+		color: $gray6;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.5;
 
-    label {
-        margin: 0 0 2px;
-        color: $gray6;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 1.5;
+		span {
+			color: $gray6;
+		}
+	}
 
-        span {
-            color: $gray6;
-        }
-    }
+	input {
+		padding: 0 16px;
+		min-height: 50px;
+		border-radius: 8px;
+		font-size: 18px;
+		line-height: 1.4;
+		color: $black;
+		outline: none;
+		appearance: none;
+		min-width: 100%;
+		order: 1;
+		border: 1px solid $violet1;
+		background: $violet0;
 
-    input {
-        padding: 0 16px;
-        min-height: 50px;
-        border-radius: 8px;
-        font-size: 18px;
-        line-height: 1.4;
-        color: $black;
-        outline: none;
-        appearance: none;
-        min-width: 100%;
-        order: 1;
-        border: 1px solid $violet1;
-        background: $violet0;
+		@media (max-width: $mantine-breakpoint-md) {
+			font-size: 16px;
+		}
 
-        @media (max-width: $mantine-breakpoint-md) {
-            font-size: 16px;
-        }
+		&::placeholder {
+			font-size: 18px;
+			line-height: 1.4;
+			color: $gray;
 
-        &::placeholder {
-            font-size: 18px;
-            line-height: 1.4;
-            color: $gray;
+			@media (max-width: $mantine-breakpoint-md) {
+				font-size: 16px;
+			}
+		}
 
-            @media (max-width: $mantine-breakpoint-md) {
-                font-size: 16px;
-            }
-        }
+		&:hover {
+			border: 1px solid $violet9;
+		}
 
-        &:hover {
-            border: 1px solid $violet9;
-        }
-
-        &:active,
-        &:focus {
-            border: 2px solid $violet9;
-        }
-    }
-
+		&:active,
+		&:focus {
+			border: 2px solid $violet9;
+		}
+	}
 }
 
 .buttonWrap {
-    margin: 32px 0 0;
+	margin: 32px 0 0;
 
-    button, a {
-        width: 100%;
-        height: 50px;
-        font-size: 16px;
-        border-radius: 8px;
+	button,
+	a {
+		width: 100%;
+		height: 50px;
+		font-size: 16px;
+		border-radius: 8px;
 
-        @media (max-width: $mantine-breakpoint-xs) {
-            height: 40px;
-            font-size: 14px;
-        }
-    }
+		@media (max-width: $mantine-breakpoint-xs) {
+			height: 40px;
+			font-size: 14px;
+		}
+	}
 }
 
 .confirmationMessage {
-    font-size: var(--mantine-font-size-lg);
-    font-weight: 700;
-    color: $violet9;
-    margin-top: calc(var(--mantine-spacing-md) * 2);
+	font-size: var(--mantine-font-size-lg);
+	font-weight: 700;
+	color: $violet9;
+	margin-top: calc(var(--mantine-spacing-md) * 2);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
 
 .errorMessage {
-    font-size: var(--mantine-font-size-lg);
-    font-weight: 700;
-    color: $red9;
-    margin-top: calc(var(--mantine-spacing-md) * 2);
+	font-size: var(--mantine-font-size-lg);
+	font-weight: 700;
+	color: $red9;
+	margin-top: calc(var(--mantine-spacing-md) * 2);
 
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: var(--mantine-font-size-md);
-    }
+	@media (max-width: $mantine-breakpoint-xs) {
+		font-size: var(--mantine-font-size-md);
+	}
 }
