@@ -38,7 +38,6 @@
     position: relative;
     background-color: #fff;
     border-radius: 8px;
-    padding: 1rem;
   }
   
   .bigCardLabel {
@@ -65,7 +64,6 @@
   }
   
   .bigCardText {
-    padding: 0 0.5rem;
   }
   
   .bigCardDate {
@@ -157,5 +155,16 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+  }
+  
+  .smallCardLabel {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #685bc7; /* Purple background */
+    color: #fff;               /* White text */
+    font-size: 12px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
   }
   

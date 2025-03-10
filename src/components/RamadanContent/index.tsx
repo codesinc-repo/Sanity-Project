@@ -14,26 +14,31 @@ export default function RamadanContent() {
 	const smallCardsData = [
 		{
 			date: '30 jan, 2025',
+			category: 'Historier',
 			title: 'Ramadan-timer – En digital följeslagare för fastan i Gottsunda Centrum',
 			image: smallImg,
 		},
 		{
 			date: '30 jan, 2025',
+			category: 'Historier',
 			title: 'Ramadan-timer – En digital följeslagare för fastan i Gottsunda Centrum',
 			image: smallImg,
 		},
 		{
 			date: '30 jan, 2025',
+			category: 'Historier',
 			title: 'Ramadan-timer – En digital följeslagare för fastan i Gottsunda Centrum',
 			image: smallImg,
 		},
 		{
 			date: '30 jan, 2025',
+			category: 'Historier',
 			title: 'Ramadan-timer – En digital följeslagare för fastan i Gottsunda Centrum',
 			image: smallImg,
 		},
 		{
 			date: '30 jan, 2025',
+			category: 'Historier',
 			title: 'Ramadan-timer – En digital följeslagare för fastan i Gottsunda Centrum',
 			image: smallImg,
 		},
@@ -51,7 +56,6 @@ export default function RamadanContent() {
 
 			<div className={styles.mainLayout}>
 				<div className={styles.bigCard}>
-
 					<div className={styles.bigCardImageWrapper}>
 						<Image
 							src={bigCardImg}
@@ -74,6 +78,7 @@ export default function RamadanContent() {
 				<div className={styles.smallCardsGrid}>
 					{smallCardsData.map((item, idx) => (
 						<div className={styles.smallCard} key={idx}>
+							{/* Category label in top-right corner */}
 							<span className={styles.smallCardLabel}>{item.category}</span>
 
 							<Image
@@ -84,9 +89,10 @@ export default function RamadanContent() {
 								className={styles.smallCardImage}
 							/>
 							<p className={styles.smallCardDate}>{item.date}</p>
+
 							<h3 className={styles.smallCardTitle}>{item.title}</h3>
 
-							{/* Arrow or "Visa fler" button in each card */}
+							{/* Small arrow button on each card */}
 							<div className={styles.arrowInsideCard}>
 								<button className={styles.showMoreButton}>
 									<Image
@@ -101,8 +107,6 @@ export default function RamadanContent() {
 					))}
 				</div>
 			</div>
-
-			
 		</section>
 	);
 }
