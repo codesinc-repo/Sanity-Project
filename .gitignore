@@ -4,7 +4,7 @@ node_modules/
 .idea/
 /yarn-error.log
 /package-lock.json
-.env
 branch_structure.json
 temp_interactive_push.bat
 temp_auto_push.bat
+config.bat
